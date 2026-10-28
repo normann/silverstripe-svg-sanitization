@@ -1,0 +1,16 @@
+/vendor/
+/public/
+/resources/
+/assets/
+/composer.lock
+/.env
+/silverstripe-cache/
+.phpunit.result.cache
+
+# Project files from silverstripe/installer (a dev dependency, for running tests)
+/app/
+/themes/
+/.htaccess
+/.env.example
+/behat.yml
+/.graphql-generated/

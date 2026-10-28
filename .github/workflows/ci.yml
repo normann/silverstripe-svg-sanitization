@@ -1,0 +1,19 @@
+name: CI
+
+on:
+  push:
+    branches: ['1']
+  pull_request:
+
+jobs:
+  ci:
+    uses: silverstripe/gha-ci/.github/workflows/ci.yml@v1
+    permissions:
+      contents: read
+      pull-requests: read
+      actions: write
+    with:
+      phpunit: true
+      phplinting: true
+      phpcoverage: false
+      js: false

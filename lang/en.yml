@@ -1,0 +1,4 @@
+en:
+  Normann\SvgSanitization\Upload\SanitisesSvgUploads:
+    INVALIDSVG: 'The SVG file could not be read. Please check it is a valid SVG image.'
+    SANITISEFAILED: 'The SVG file could not be processed. Please try again.'

@@ -1,0 +1,8 @@
+---
+Name: svg-sanitization
+---
+SilverStripe\Core\Injector\Injector:
+  # Sanitise SVG uploads before they're stored. If your project sets its own Upload_Validator
+  # class, e.g. MimeUploadValidator, use SvgSanitisingMimeUploadValidator there instead.
+  SilverStripe\Assets\Upload_Validator:
+    class: Normann\SvgSanitization\Upload\SvgSanitisingUploadValidator
