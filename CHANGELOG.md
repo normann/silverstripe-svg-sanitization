@@ -1,6 +1,6 @@
 # Changelog
 
-## 1.0.0 (unreleased)
+## 1.0.0 (2026-10-29)
 
 Initial release, for Silverstripe CMS 6.
 
